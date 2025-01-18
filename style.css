@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #283149,
+    #404b69
+  ); /* Güzel bir arka plan efekti */
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  padding: 0;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  color: #4ecca3;
+  text-shadow: 5px 0 #232931;
+  margin: 20px;
+}
+
+.dice {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #4ecca3;
+}
+
+img {
+  width: 120px; /* Zar resimlerini boyutlandırma */
+  height: 120px;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2); /* Hover efekti ile görselleri büyütme */
+}
+
+button {
+  background-color: #4ecca3;
+  color: #393e46;
+  font-size: 1.8rem;
+  font-family: "Indie Flower", cursive;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3aa377;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: #eeeeee;
+  font-family: "Indie Flower", cursive;
+}
